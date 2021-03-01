@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android system's phone" />
+
+    <TextView
+        android:id="@+id/androidPhone"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/teal_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="iOs system's Goods" />
+
+    <TextView
+        android:id="@+id/iOsPhone"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/teal_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type of Payment" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/cardRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank's credit cards"/>
+
+    <RadioButton
+        android:id="@+id/cashRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cash"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delivary" />
+
+    <CheckBox
+        android:id="@+id/withpresents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="with presents" />
+
+    <CheckBox
+        android:id="@+id/toaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to address" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    </LinearLayout>
+
+
+

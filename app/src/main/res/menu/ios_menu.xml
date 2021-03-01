@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/iphone"
+        android:title="iPhone" />
+    <item
+        android:id="@+id/macbook"
+        android:title="MacBook" />
+    <item
+        android:id="@+id/ipad"
+        android:title="iPad" />
+    <item
+        android:id="@+id/applewatch"
+        android:title="AppleWatch"/>
+    <item
+        android:id="@+id/airpods"
+        android:title="AirPods"/>
+
+</menu>
